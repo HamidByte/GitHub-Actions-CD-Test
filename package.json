@@ -1,0 +1,26 @@
+{
+  "name": "github-actions-cd-test",
+  "version": "1.0.0",
+  "description": "This branch is to test continuous deployment using GitHub actions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamidByte/GitHub-Actions-CD-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamidByte/GitHub-Actions-CD-Test/issues"
+  },
+  "homepage": "https://github.com/HamidByte/GitHub-Actions-CD-Test#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
